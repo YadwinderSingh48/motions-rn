@@ -1,4 +1,4 @@
-import { POST1 } from '@/app/assets';
+import { POST1, POST2, POST6, POST7, POST8 } from '@/app/assets';
 import React from 'react';
 import {
     FlatList,
@@ -28,22 +28,22 @@ const stories_data = [
   {
     id: '2',
     title: 'Friends',
-    image: POST1,
+    image: POST6,
   },
   {
     id: '3',
     title: 'Sport',
-    image: POST1,
+    image: POST7,
   },
   {
     id: '4',
     title: 'Design',
-    image: POST1,
+    image: POST8,
   },
   {
     id: '5',
     title: 'Travel',
-    image: POST1,
+    image: POST2,
   },
 ];
 

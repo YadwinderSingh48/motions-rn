@@ -11,7 +11,7 @@ const ProfileScreen = () => {
         <View style={{ flex: 1, backgroundColor: 'white', paddingTop: insets.top }} >
             <FlatList
                 data={['']}
-                stickyHeaderIndices={[1]}
+                // stickyHeaderIndices={[1]}
                 nestedScrollEnabled
                 ListHeaderComponent={
                     <View style={[styles.container, {}]} >
